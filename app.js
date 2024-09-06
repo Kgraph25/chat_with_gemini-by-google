@@ -59,7 +59,7 @@ app.listen(port, async () => {
 
     // Instantiate models
     generativeModel = vertex_ai.getGenerativeModel({
-        model: "gemini-1.0-pro-001"
+        model: "gemini-pro-experimental"
     });
 });
 
