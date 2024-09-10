@@ -18,7 +18,10 @@
         <title>Demo 1</title>
     </head>
     <body>
-        <div id="herewego" text-center>
+
+
+        <!--チャットコンポーネンツ-->
+        <div class="herewego" text-center>
             <!-- <div id="replaceme2" hx-swap-oob="true">Hello world</div> -->
             <div
                 class="container mx-auto mt-8 text-center max-w-screen-lg"
@@ -26,8 +29,11 @@
                 <div
                     class="overflow-y-scroll bg-white p-2 border h-[500px] space-y-4 rounded-lg m-auto"
                 >
-                    <div id="toupdate"></div>
+                    <!-- Gemini文字のやり取り -->
+                    <div id="toupdate"></div>  
                 </div>
+
+                <!-- 送信フォーム -->
                 <form
                     hx-trigger="submit, keyup[keyCode==13] from:body"
                     hx-ext="ws"
