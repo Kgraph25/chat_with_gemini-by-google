@@ -62,7 +62,7 @@ html,
 */
 
 body {
-  margin: 0;
+  margin: 45px;
   /* 1 */
   line-height: inherit;
   /* 2 */
