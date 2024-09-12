@@ -1,0 +1,8 @@
+  runtime: nodejs
+  env: flex
+
+  runtime_config:
+      operating_system: "ubuntu22"
+
+  service_account: vertex-ai-caller@my-project-15194-name-diary.iam.gserviceaccount.com
+  
