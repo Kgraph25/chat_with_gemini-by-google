@@ -41,7 +41,7 @@ const { VertexAI } = require("@google-cloud/vertexai");
 let generativeModel;
 
 // on startup
-const port = parseInt(process.env.PORT) || 8080;
+const port = parseInt(process.env.PORT) || 80;
 app.listen(port, async () => {
     console.log(`demo1: listening on port ${port}`);
 
